@@ -4,7 +4,7 @@
 
 This might be useful for you because you can save time with coding and documentation as the API is specified.
 
-This project is a wrapper around the [Flask](https://github.com/pallets/flask) that has automations for code generation.
+This project is a wrapper around the [Flask](https://github.com/pallets/flask) that has automations for code and docs generation.
 
 # Quickstart
 
