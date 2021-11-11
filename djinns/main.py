@@ -15,7 +15,7 @@ class Djinns:
         self.apis = self.apispec_json['apis']
         self.app = self.__generate_app()
 
-    def start(self):
+    def invoke(self):
         self.app.run()
 
     def __generate_app(self):
