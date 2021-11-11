@@ -24,3 +24,4 @@ Obs: You can change the `entrypoint.py` code with your own procedure. The change
 # TODO
 
 1. Implement documentation generation from **api_spec.json** file.
+2. Add module to pypi
