@@ -1,0 +1,31 @@
+{
+	"title": "Sample API",
+	"description": "This is a sample API",
+	"version": "1",
+	"contact": {
+		"name": "Roberto Nascimento",
+		"email": "robertonscjr@gmail.com"
+	},
+	"servers": [
+		{
+			"uri": "https://api-v3.your.domain",
+			"description": "Production server"
+		},
+		{
+			"uri": "https://staging-api-v3.your.domain",
+			"description": "Staging server"
+		},
+		{
+			"uri": "https://development-api-v3.your.domain",
+			"description": "Development server"
+		}
+	],
+	"base_path": "/",
+	"mime_type": "application/json",
+	"apis": {
+		"/sample": "apis/sample.json"
+	},
+	"config": {
+		"log_path": "/var/log"
+	}
+}

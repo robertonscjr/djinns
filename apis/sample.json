@@ -1,0 +1,10 @@
+{ "/sample": [
+	{
+		"path": "/<slug>/test",
+		"method": "GET",
+		"description": "Just an endpoint",
+		"body": {},
+		"parameters": {},
+		"response": {}
+	}
+] }
