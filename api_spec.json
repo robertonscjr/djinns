@@ -23,7 +23,13 @@
 	"base_path": "/",
 	"mime_type": "application/json",
 	"apis": {
-		"/sample": "apis/sample.json"
+		"/sample": {
+			"/child_sample1": {
+				"/child_sample2": {
+					"/child_sample3": {}
+				}
+			}
+		}
 	},
 	"config": {
 		"log_path": "/var/log"

@@ -16,8 +16,9 @@ def view_function(*args, **kwargs):
 
     try:
         from apis import apis
+        import pdb; pdb.set_trace()
         url_rule = request.url_rule.rule
-        blueprint = request.blueprint
+        blueprint = "/{}".format(request.blueprint.split("/")[-1])
         controller_function = apis[blueprint].functions[url_rule]
         res, status = controller_function(args, kwargs, request=request)
 
