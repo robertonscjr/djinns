@@ -1,6 +1,6 @@
 { "/child_sample2": [
 	{
-		"path": "/<slug2>/sample2",
+		"path": "/<slug2>/cs2",
 		"method": "GET",
 		"description": "Just an endpoint sample 2",
 		"body": {},

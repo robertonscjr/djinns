@@ -1,0 +1,10 @@
+{ "/sample2": [
+	{
+		"path": "/<sample2_id>/s2",
+		"method": "GET",
+		"description": "Just an endpoisssssnt",
+		"body": {},
+		"parameters": {},
+		"response": {}
+	}
+] }

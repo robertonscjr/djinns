@@ -1,6 +1,6 @@
 { "/sample": [
 	{
-		"path": "/<sample_id>",
+		"path": "/<sample_id>/s1",
 		"method": "GET",
 		"description": "Just an endpoint",
 		"body": {},

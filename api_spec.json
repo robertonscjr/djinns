@@ -29,7 +29,8 @@
 					"/child_sample3": {}
 				}
 			}
-		}
+		},
+		"/sample2": {}
 	},
 	"config": {
 		"log_path": "/var/log"
