@@ -93,15 +93,20 @@ class Djinns:
                 self.blueprints.append((full_prefix + path, method))
 
                 full_path = '{}{}'.format(full_prefix, path)
-                controller_name = "{}{}_{}".format(
-                    method.lower(),
-                    full_path,
-                    path_signature[:8]
-                ).replace('/', '_').\
-                replace('<', '').\
-                replace('>', '').\
-                replace("-", "_").\
-                replace("__", "_")
+
+                controller_name = "_".join([a for a in full_path.split("/") if a != "" and '<' not in a])
+                controller_name = controller_name.replace("-", "_")
+              # controller_name = "{}{}_{}".format(
+              #     method.lower(),
+              #     full_path,
+              #     path_signature[:8]
+              # ).replace('/', '_').\
+              # replace('<', '').\
+              # replace('>', '').\
+              # replace("-", "_").\
+              # replace("__", "_")
+
+              # import pdb; pdb.set_trace()
      
                 path_function = ("""
 def {}(*args, **kwargs):
